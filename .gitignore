@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 
 # REMOVE ANY INITIALIZATION FILES
-init/*.json
+init/*
 
 # Pycharm
 .idea*
