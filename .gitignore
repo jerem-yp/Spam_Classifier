@@ -4,7 +4,10 @@ __pycache__/
 *$py.class
 
 # REMOVE ANY INITIALIZATION FILES
-init/*
+backend/init/*
+
+# Remove any test files
+*test.py
 
 # Pycharm
 .idea*

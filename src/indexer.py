@@ -7,8 +7,8 @@ import os.path
 from typing import List
 
 
-INIT_PATH = "../init/paths.ini"
-STORAGE_PATH = "../init/indexer.json"
+INIT_PATH = "../backend/init/paths.ini"
+STORAGE_PATH = "../backend/init/indexer.json"
 
 class Indexer:
 

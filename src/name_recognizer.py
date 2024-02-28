@@ -10,7 +10,7 @@ class NameClassifier:
     """ This class uses three separate NER models to determine whether a string is a name """
 
     filename = 'name_classification.csv'
-    filepath = os.join('user_data', filename)
+    filepath = os.path.join('user_data', filename)
 
     # Load entities
     spacyNLP = spacy.load('en_web_core_lg')
