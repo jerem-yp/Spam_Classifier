@@ -42,3 +42,7 @@ async def fetch_emails_prototype():
 @app.get("/person_emails")
 def person_emails() -> List[dict]:
     return personMessages
+
+@app.get("/refresh") # Load more results
+async def refresh() -> None:
+    await fetch_emails_prototype()
