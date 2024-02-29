@@ -1,0 +1,13 @@
+@import url("../fonts.css");
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    background-color: #fff;
+    min-height: 75.5vh;
+    width: 95%;
+    border-radius: 10px 10px 0 0;
+}
