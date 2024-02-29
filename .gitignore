@@ -9,6 +9,10 @@ backend/init/*
 # Remove any test files
 *test.py
 
+# Remove unnecessary node modules
+frontend/RealMail/src/assets/*
+frontend/RealMail/src/fonts/*
+
 # Pycharm
 .idea*
 
